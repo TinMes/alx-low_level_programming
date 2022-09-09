@@ -28,7 +28,7 @@ int main(void)
 	
 	{
 	  
-	  continue;
+	  break;
 	  
 	}
       
