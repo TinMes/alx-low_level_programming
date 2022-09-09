@@ -1,0 +1,1 @@
+All files contain excercises on variables, conditionals and loops.
