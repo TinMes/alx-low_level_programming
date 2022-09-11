@@ -2,7 +2,7 @@
 /**
  *main: Entry point
  *Return: Always 0(Success)
- *
+ *Description: Print all
 */
 int main(void)
 {
