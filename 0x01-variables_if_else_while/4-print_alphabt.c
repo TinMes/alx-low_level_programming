@@ -7,14 +7,12 @@
 */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
+int c;
+for (c = 97; c <= 122; c++)
 {
-if (ch == 'e' || ch == 'q')
-{
-putchar(ch);
+if (c != 101 && c != 113)
+putchar(c);
 }
-}
-putchar('\n');
+putchar(10);
 return (0);
 }
