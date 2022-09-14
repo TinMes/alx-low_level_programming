@@ -5,11 +5,10 @@
 */
 int main(void)
 {
-int v;
-for (v = 97; v < 123; v++)
+char v;
+for (v = 'a'; v <= 'z'; v++)
 {
-char y = v + '0';
-_putchar(y);
+_putchar(v);
 }
 return (0);
 }
