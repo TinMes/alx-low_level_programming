@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * _islower - checks gor lowercase character
  * @c: the char to be checked
