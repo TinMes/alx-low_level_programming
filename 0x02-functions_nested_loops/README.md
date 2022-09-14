@@ -1,0 +1,1 @@
+Folder contains projects done implementing loops, functions and prototype.
