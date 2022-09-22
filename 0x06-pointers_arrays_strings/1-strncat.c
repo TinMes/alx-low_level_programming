@@ -17,6 +17,7 @@ a++;
 for (c = 0; c < n; c++)
 {
 dest[a + c] = src[c];
+}
 if (src[c] == '\0')
 {
 c = n;
