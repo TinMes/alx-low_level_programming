@@ -1,23 +1,24 @@
 #include "main.h"
 /**
- * leet - function that replaces some characters in a string
- * @c: the pointer variable that holds the string
- * Return: c
+ * rot13 - encodes a string in rot13
+ * @s: string to be encoded
+ * Return: the resulting string
  */
-char *leet(char *c)
+char *rot13(char *s)
 {
-int i, b, replacer[] = {'4', '3', '0', '7', '1'};
-int locate[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
-for (i = 0; c[i] != '\0'; i++)
+int i, j;
+char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+for (i = 0; s[i] != '\0'; i++)
 {
-for (b = 0; b <= 9; b++)
+for (j = 0; a[j] != '\0'; j++)
 {
-if (c[i] == locate[b])
+if (s[i] == a[j])
 {
-c[i] = replacer[b / 2];
-b = 9;
+s[i] = b[j];
+break;
 }
 }
 }
-return (c);
+return (s);
 }
