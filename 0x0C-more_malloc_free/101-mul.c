@@ -1,5 +1,4 @@
-#include "bootcamp.h"
-#include <main.h"
+#include "main.h"
 /**
  * str_len - finds string length
  * @str: input pointer to string
